@@ -1,0 +1,77 @@
+/* Inicio Estilos Main */
+
+
+main {
+    .container1 {
+        background-color: $colorcafe;
+         @extend %config-container;
+    }
+
+    .container2 {
+        background-color: $colorcafe;
+        @extend %config-container;
+    }
+
+    .container3 {
+        background-color: $colorcafe;
+        @extend %config-container;
+    }
+
+
+    .color-white {
+         color:map-get($propiedad,color_elegido);
+        
+    }
+
+
+    .split {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+         gap:map-get($propiedad , separacion );
+        // gap: 20px;
+    }
+
+    .container2 {
+        background-color: $colorgris;
+    }
+
+    .image {
+        max-inline-size: 100%;
+        padding: 5% 5% 5% 5%;
+    }
+
+    .image-social {
+        display: flex;
+        flex-wrap: row;
+        justify-content: center;
+        max-inline-size: 100%;
+        padding: 5% 5% 5% 5%;
+    }
+
+    .image-social-icons {
+        justify-content: space-evenly;
+    }
+
+    .map {
+        max-inline-size: 100%;
+        padding: 5% 5% 5% 5%;
+    }
+
+    @media screen and (max-width: 300px) {
+        .split {
+            @include flx-grd(flex,column);
+            
+            // display: flex;
+            // flex-direction: column;
+        }
+    }
+
+
+
+
+}
+
+
+
+
+/*  Fin Estilos Main */

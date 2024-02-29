@@ -1,0 +1,8 @@
+@mixin flx-grd($tipo,$direccion){
+
+    display:$tipo;
+    flex-direction: $direccion;
+
+}
+
+
