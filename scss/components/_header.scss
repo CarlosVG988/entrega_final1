@@ -29,4 +29,14 @@ header {
         border-radius: 50%;
 
     }
+
+    @media only screen and (max-width: 768px) {
+        .nav-link:hover {
+            display:none;
+        }
+      }
+
+
+
+
 }

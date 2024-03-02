@@ -26,6 +26,11 @@ header .logo {
   width: 5rem;
   border-radius: 50%;
 }
+@media only screen and (max-width: 768px) {
+  header .nav-link:hover {
+    display: none;
+  }
+}
 
 /* Inicio Estilos Main */
 main .container1 {
