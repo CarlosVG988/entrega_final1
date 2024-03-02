@@ -26,6 +26,11 @@ header .logo {
   width: 5rem;
   border-radius: 50%;
 }
+@media only screen and (max-width: 768px) {
+  header .nav-link {
+    display: inline;
+  }
+}
 
 /* Inicio Estilos Main */
 main .container1 {
@@ -66,7 +71,7 @@ main .map {
   max-inline-size: 100%;
   padding: 5% 5% 5% 5%;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   main .split {
     display: flex;
     flex-direction: column;

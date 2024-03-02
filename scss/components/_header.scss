@@ -1,5 +1,3 @@
-
-
 header {
     .color-claro {
         background-color: $colorclaro;
@@ -29,4 +27,14 @@ header {
         border-radius: 50%;
 
     }
+
+    @media only screen and (max-width: 768px) {
+        .nav-link {
+            display:inline;
+        }
+    }
+
+
+
+
 }
