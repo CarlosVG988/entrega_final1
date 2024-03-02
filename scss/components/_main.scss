@@ -57,7 +57,7 @@ main {
         padding: 5% 5% 5% 5%;
     }
 
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 500px) {
         .split {
             @include flx-grd(flex,column);
             

@@ -1,5 +1,3 @@
-
-
 header {
     .color-claro {
         background-color: $colorclaro;
@@ -31,10 +29,10 @@ header {
     }
 
     @media only screen and (max-width: 768px) {
-        .nav-link:hover {
-            display:none;
+        .nav-link {
+            display:inline;
         }
-      }
+    }
 
 
 
